@@ -30,7 +30,7 @@ a,
   color: white;
   background-color: #3882f6;
   border-color: #3882f6;
-  border-radius: 5px;
+  border-radius: 8px;
 }
 .cta {
   background-color: #3882f6;
@@ -63,4 +63,47 @@ div.quote > :nth-child(2) {
 }
 .footer {
   color: #e5e7eb;
+}
+.placeholder {
+  color: #e5e7eb;
+}
+
+/* MAIN DECORATION */
+.header,
+ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  align-items: center;
+  padding-top: 12px;
+}
+main {
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+}
+.container > .column,
+.container > .column2 {
+  flex: 1;
+  max-width: 680px;
+}
+.container > .column2 {
+  background-color: #6d747d;
+  display: flex;
+}
+.paragraph {
+  flex: 1;
+  align-self: center;
+  text-align: center;
+  color: #d6d9de;
+}
+.button {
+  width: 129px;
+  height: 35px;
+  font-size: 18px;
+  margin-top: 10px;
 }
