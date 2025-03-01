@@ -1,0 +1,66 @@
+* {
+  font-family: Roboto, serif;
+  margin: 0;
+  padding: 0;
+}
+header,
+main,
+.footer {
+  background-color: #1f2937;
+}
+ul,
+li,
+a,
+.column > p {
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.column > h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hlogo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+.button {
+  color: white;
+  background-color: #3882f6;
+  border-color: #3882f6;
+  border-radius: 5px;
+}
+.cta {
+  background-color: #3882f6;
+}
+.cta :nth-child(1) {
+  color: white;
+  font-weight: bold;
+}
+.cta :nth-child(2) {
+  color: #e5e7eb;
+}
+.button.bc {
+  border-color: white;
+}
+.information {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+.s2 {
+  background-color: #e5e7eb;
+}
+div.quote > :nth-child(1) {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+div.quote > :nth-child(2) {
+  font-weight: bold;
+}
+.footer {
+  color: #e5e7eb;
+}
