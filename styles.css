@@ -29,10 +29,10 @@ a,
 .button {
   color: white;
   background-color: #3882f6;
-  border-color: #3882f6;
+  border: 2px solid #3882f6;
   border-radius: 8px;
 }
-.cta {
+.container-cta {
   background-color: #3882f6;
 }
 .cta :nth-child(1) {
@@ -43,12 +43,16 @@ a,
   color: #e5e7eb;
 }
 .button.bc {
-  border-color: white;
+  border: 2px solid white;
 }
 .information {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+}
+.s3 {
+  height: 350px;
+  align-content: center;
 }
 .s2 {
   background-color: #e5e7eb;
@@ -77,11 +81,14 @@ div.quote > :nth-child(2) {
 /* MAIN DECORATION */
 .header,
 ul {
-  display: flex;
-  justify-content: space-around;
-  gap: 10px;
+  gap: 20px;
   align-items: center;
   padding-top: 12px;
+}
+.headercontainer * {
+  margin-inline: auto;
+  display: flex;
+  max-width: 1250px;
 }
 main {
   height: 400px;
@@ -147,4 +154,27 @@ main {
 }
 .container3 {
   height: inherit;
+}
+.container-cta {
+  display: flex;
+  justify-content: center;
+  width: 1020px;
+  height: 150px;
+  margin: auto;
+  border-radius: 7px;
+}
+.cta {
+  align-content: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+  gap: 160px;
+}
+
+.footer {
+  height: 100px;
+  align-content: center;
+  text-align: center;
 }
